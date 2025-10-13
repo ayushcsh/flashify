@@ -9,7 +9,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from '../../components/ui/dropdown-menu'
+
 
 function Navbar() {
   const { data: session } = useSession();

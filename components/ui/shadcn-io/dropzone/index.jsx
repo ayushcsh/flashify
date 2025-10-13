@@ -2,8 +2,8 @@
 import { UploadIcon } from 'lucide-react';
 import { createContext, useContext } from 'react';
 import { useDropzone } from 'react-dropzone';
-import { Button } from '@/components/ui/button';
-import { cn } from '@/lib/utils';
+import { Button } from '../../button';
+import { cn } from '../../../../lib/utils';
 
 const renderBytes = (bytes) => {
   const units = ['B', 'KB', 'MB', 'GB', 'TB', 'PB'];

@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useRef, useState } from 'react'
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
+import { Input } from "../../components/ui/input"
+import { Button } from "../../components/ui/button"
 import { ArrowUpIcon, Loader2 } from "lucide-react"
 import { motion } from 'framer-motion'
 import Link from 'next/link'
@@ -11,7 +11,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "../../components/ui/carousel"
 
 const InputQuery = () => {
   const [input, setInput] = useState('')

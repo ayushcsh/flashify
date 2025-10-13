@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Navbar from '../components/navbar'
 import PdfDropzone from '../components/dropzone';
 import Inputquery from '../components/inputquery'
-import { Button } from "@/components/ui/button"
+import { Button } from "../../components/ui/button"
 const start = () => {
   
   return (
